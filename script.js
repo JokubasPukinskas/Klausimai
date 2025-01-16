@@ -8,7 +8,7 @@ let questions = [ "What does NULL mean?",
     " What is the correct way to declare a variable in JavaScript?",
     " Which of the following is used to parse a string into an integer in JavaScript?",
     " What is the purpose of the return statement in a function?"]
-let correctAnswers = [4,2,3,1,1,2,3,1]
+let correctAnswers = [4,2,3,1,1,2,3,1,1,1]
 let options = [["\n1. Number", "\n2. Nothing","\n3. Undefied","\n4. No value"],
     ["\n1. ==", "\n2. ===","\n3. !=","\n4. !=="],
     ["\n1. let", "\n2. var","\n3. const","\n4. constant"],
@@ -17,7 +17,8 @@ let options = [["\n1. Number", "\n2. Nothing","\n3. Undefied","\n4. No value"],
     ["\n1.  function = myFunc() {}", "\n2. function myFunc() {}","\n3. create function myFunc() {}","\n4. def myFunc() {}"],
     ["\n1. String", "\n2. Boolean","\n3. Array","\n4. Number"],
     ["\n1. var x = 5;", "\n2. let x = 5;","\n3. const x;","\n4. variable x = 5;"],
-    ["\n1. parseInt()", "\n2. parseString()","\n3. toInteger()","\n4. int()"]]
+    ["\n1. parseInt()", "\n2. parseString()","\n3. toInteger()","\n4. int()"],
+    ["\n1. The return statement ends a function and sends a value back to the caller.", "\n2. To end the function","\n3. To repeat the loop","\n4. To clean the console"],]
 
 let correct = 0
 let userAnswer
